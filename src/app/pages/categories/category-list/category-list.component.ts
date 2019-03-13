@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryListComponent implements OnInit {
 
+  onClickMe() {
+    alert('Deseja realmente excluir?');
+  }
   constructor() { }
 
   ngOnInit() {
